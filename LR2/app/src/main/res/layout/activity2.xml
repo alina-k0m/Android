@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!--
+        показывает ранее введенные в activity1 данные (из Intent)
+    -->
+    <TextView
+        android:id="@+id/textViewPrevious"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/bookTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Жанр книги" />
+
+    <Spinner
+        android:id="@+id/genreSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/genreNames" />
+
+
+    <TextView
+        android:id="@+id/bookLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Язык оригинала книги" />
+
+    <Spinner
+        android:id="@+id/languageSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/languageNames" />
+
+    <TextView
+        android:id="@+id/dateReading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Дата прочтения" />
+
+    <!--
+        выбор даты прочтения
+    -->
+    <DatePicker
+        android:id="@+id/dateReadingInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT" />
+
+    <Button
+        android:id="@+id/previousButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PREVIOUS" />
+
+
+</LinearLayout>

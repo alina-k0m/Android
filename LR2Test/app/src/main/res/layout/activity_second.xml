@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/displayTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"/>
+
+    <CheckBox
+        android:id="@+id/readCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read"
+        android:layout_below="@id/displayTextView"
+        android:layout_marginTop="16dp"/>
+
+    <RadioButton
+        android:id="@+id/hardcoverRadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hardcover"
+        android:layout_below="@id/readCheckBox"/>
+
+    <RadioButton
+        android:id="@+id/paperbackRadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paperback"
+        android:layout_below="@id/hardcoverRadioButton"/>
+
+    <Spinner
+        android:id="@+id/genreSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/paperbackRadioButton"/>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:layout_below="@id/genreSpinner"
+        android:layout_marginTop="20dp"/>
+</RelativeLayout>

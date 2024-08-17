@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">LR2</string>
+
+    <string-array name="genreNames">
+        <item>Художественная литература</item>
+        <item>Документальная проза</item>
+        <item>Мемуарная литература</item>
+        <item>Научная и научно-популярная литература</item>
+        <item>Справочная литература</item>
+        <item>Учебная литература</item>
+        <item>Техническая литература</item>
+        <item>Литература по психологии и саморазвитию</item>
+    </string-array>
+
+
+    <string-array name="languageNames">
+        <item>Белорусский язык</item>
+        <item>Английский язык</item>
+        <item>Русский язык</item>
+        <item>Польский язык</item>
+        <item>Украинский язык</item>
+        <item>Китайский язык</item>
+        <item>Итальянский язык</item>
+        <item>Французский язык</item>
+    </string-array>
+
 </resources>
+
