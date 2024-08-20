@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/fillEmail" android:title="Fill Email" />
+    <item android:id="@+id/fillSecond" android:title="Fill Second Field" />
+    <item android:id="@+id/fillAll" android:title="Fill All Fields" />
+    <item android:id="@+id/clear" android:title="Clear Fields" />
+    <item android:id="@+id/checkData" android:title="Check Data" />
+    <item android:id="@+id/navigateToSecond" android:title="Go to Second Page" />
+</menu>
