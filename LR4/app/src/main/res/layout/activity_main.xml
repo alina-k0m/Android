@@ -1,18 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="16dp">
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/emailField"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Field 1" />
+        android:hint="Email" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/secondField"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Field 2" />
+        android:hint="Second Field" />
+
+    <Button
+        android:id="@+id/buttonFillEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Заполнить Email" />
+
+    <Button
+        android:id="@+id/buttonClearFields"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Очистить Данные" />
+
+    <Button
+        android:id="@+id/buttonCheckData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Проверить Данные" />
+
+    <Button
+        android:id="@+id/buttonGoToSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Перейти на Вторую Страницу" />
 </LinearLayout>

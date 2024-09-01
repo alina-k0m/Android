@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/fillField" android:title="Fill Field" />
-    <item android:id="@+id/clearField" android:title="Clear Field" />
-    <item android:id="@+id/checkField" android:title="Check Field" />
+<!--    <item android:id="@+id/action_fill_first"
+        android:title="Заполнить первое поле"/>
+    <item android:id="@+id/action_fill_second"
+        android:title="Заполнить второе поле"/>-->
+
+    <item android:id="@+id/fillField"
+        android:title="Заполнить всё"/>
+    <item android:id="@+id/clearField"
+        android:title="Очистить данные"/>
+    <item android:id="@+id/checkData"
+        android:title="Проверить данные"/>
 </menu>
