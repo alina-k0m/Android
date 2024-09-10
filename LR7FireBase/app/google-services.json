@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "589017048101",
+    "project_id": "lr7firebase",
+    "storage_bucket": "lr7firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589017048101:android:27e99513de54ac06dd8bcc",
+        "android_client_info": {
+          "package_name": "com.example.lr7firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm7lVMOkC5IG_NsNOgK6CqLT0RUOs-8_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
