@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "923631728150",
+    "project_id": "lr8firebase2",
+    "storage_bucket": "lr8firebase2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923631728150:android:bcb6975f3d0cb9c8d5e737",
+        "android_client_info": {
+          "package_name": "com.example.lr8firebase2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_alJ25srstnphJPTfkUG37rwEwFJMKVw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
